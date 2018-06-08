@@ -23,7 +23,7 @@
 // numbers and the test for symmetry omitted. Also, the matrix is changed by this program so, 
 // if it needs to be re-used elsewhere, it should be copied and a copy passed into the routine.
 //
-// 5 June 2018
+// 7 June 2018
 //
 // Written in Microsoft Visual Studio Express 2013 for Windows Desktop
 //
@@ -294,7 +294,7 @@ int main()
 {
 	char rflag = 0;	//Readiness flag
 
-	cout << "                     EigRSValO_ak1   (5 June 2018)\n";
+	cout << "                     EigRSValO_ak1   (7 June 2018)\n";
 	cout << "=========================================================================== \n";
 	cout << "This program calculates the eigenvalues ONLY of a N X N, real,\n";
 	cout << "symmetric, Matrix, A.\n";
@@ -382,7 +382,7 @@ int main()
 
 		in.close();  //Close the input file
 
-		Echo2DArray(A);
+		// Echo2DArray(A);
 
 		// Confirm the symmetry of the matrix
 		i = mDim - 1;
